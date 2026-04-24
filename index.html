@@ -102,8 +102,9 @@
     <!-- 1. NAVEGACIÓN (HEADER) -->
     <header class="fixed w-full z-[100] bg-white/95 border-b border-gray-100 py-5 px-6 md:px-12 flex justify-between items-center transition-all duration-300" id="main-nav">
         <div class="flex flex-col">
-            <span class="font-decorative text-xl md:text-2xl font-bold leading-none tracking-widest">NMOR</span>
-            <span class="text-[7px] md:text-[8px] tracking-[0.4em] uppercase opacity-70 font-semibold">Espectáculos y Multimedia</span>
+            <div class="flex items-center">
+    <img src="img/logo original.png" alt="Logo Cultura NMOR" class="h-22 md:h-24 w-auto object-contain">
+</div>
         </div>
         <nav class="hidden lg:flex gap-10 text-[10px] font-bold uppercase tracking-[0.2em] items-center">
             <a href="#nosotros" class="hover:opacity-40 transition-opacity">Nosotros</a>
@@ -119,7 +120,7 @@
         <div id="slider">
             <!-- Slide 1 -->
             <div class="slide active absolute inset-0">
-                <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&q=80&w=1920" alt="Ingeniería Escénica" class="w-full h-full object-cover brightness-75">
+                <img src="img/inicio2.png" alt="Ingeniería Escénica" class="w-full h-full object-cover brightness-60">
             </div>
             <!-- Slide 2 -->
             <div class="slide absolute inset-0">
@@ -129,7 +130,7 @@
         
         <div class="overlay-dark absolute inset-0 flex flex-col justify-center items-center text-center text-white px-6">
             <h1 class="font-decorative text-4xl md:text-7xl mb-6 uppercase tracking-tight max-w-5xl leading-tight">Narrativas escénicas que transienden</h1>
-            <p class="text-sm md:text-lg font-light max-w-3xl mb-10 opacity-80 leading-relaxed tracking-wide">Producción escénica, dirección técnica y creatividad de alto nivel para eventos empresariales que requieren resultados impecables.</p>
+            <p class="text-sm md:text-lg font-light max-w-3xl mb-10 opacity-80 leading-relaxed tracking-wide">11 años de trayectoria transformando espacios en escenarios.Expertos en dirección técnica y arte perforrmativo para eventos corporativos de alto impacto.</p>
             <div class="flex flex-col md:flex-row gap-4">
                 <a href="#contacto" class="btn-premium bg-white text-black border-white px-10 py-4">Solicitar Propuesta Técnica</a>
                 <a href="#portafolio" class="btn-outline px-10 py-4">Explorar Portafolio</a>
@@ -143,21 +144,20 @@
     </section>
 
     <!-- 3. SECCIÓN: NOSOTROS -->
-    <section id="nosotros" class="py-28 px-6 md:px-20 bg-white">
+      <section id="nosotros" class="py-28 px-6 md:px-20 bg-white">
         <div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-20 items-center">
             <div class="lg:w-1/2">
                 <h2 class="font-decorative text-3xl md:text-4xl mb-8 uppercase leading-tight">La Fusión del Arte y la Innovación</h2>
                 <p class="text-gray-600 mb-6 text-sm md:text-base leading-loose">
                     NMOR es una casa productora especializada en espectáculos corporativos de alto nivel. Integramos artes performativas, tecnología digital e ingeniería escénica para desarrollar producciones precisas, visualmente impactantes y operativamente impecables.
-                </p>
                 <div class="border-l-2 border-black pl-8 my-10">
                     <h4 class="font-bold text-xs uppercase tracking-[0.3em] mb-3">Nuestra Misión</h4>
-                    <p class="text-sm text-gray-500 italic leading-relaxed">"Crear espectáculos que integren creatividad, rigor técnico y una ejecución impecable, elevando cada evento corporativo a una experiencia memorable."</p>
+                    <p class="text-sm text-gray-500 italic leading-relaxed">"Elevar la identidad de tu marca y hacer realidad el propósito detrás de cada evento con impecabilidad profesional. Porque en NMOR tenemos una convicción clara: Lo más poderoso del ser es convertir en realidad sus sueños"</p>
                 </div>
             </div>
             <div class="lg:w-1/2 grid grid-cols-2 gap-4">
-                <img src="img/solista.png" alt="Cultura NMOR" class="w-full h-64 object-cover grayscale hover:grayscale-0 transition-all duration-700">
-<img src="img/Chica.png" alt="Arte NMOR" class="w-full h-64 object-cover mt-8 grayscale hover:grayscale-0 transition-all duration-700">
+                <img src="img/Grupal2.png" alt="Cultura NMOR" class="w-full h-64 object-cover grayscale hover:grayscale-0 transition-all duration-700">
+<img src="img/Chica2.png" alt="Arte NMOR" class="w-full h-64 object-cover mt-8 grayscale hover:grayscale-0 transition-all duration-700">
             </div>
         </div>
     </section>
@@ -174,7 +174,7 @@
                 <div>
                     <div class="w-12 h-[1px] bg-black mb-6"></div>
                     <h3 class="font-decorative text-lg mb-4 uppercase">Creaciones Originales</h3>
-                    <p class="text-xs text-gray-500 leading-relaxed">A diferencia de los productos "armados" del mercado, desarrollamos conceptos a la medida que integran la identidad de su marca en una narrativa escénica única.</p>
+                    <p class="text-xs text-gray-500 leading-relaxed">Desarrollamos conceptos a la medida, no productos prefabricados. Integramos la esencia de su marca en narrativas escénicas únicas, donde cada detalle técnico responde a un propósito creativo.</p>
                 </div>
                 <div>
                     <div class="w-12 h-[1px] bg-black mb-6"></div>
@@ -198,7 +198,7 @@
                 <!-- BLOQUE 01 -->
                 <div class="group relative h-[600px] overflow-hidden border-r border-gray-100 bg-black">
                     <!-- Foto de fondo: Visible por defecto, desaparece en hover -->
-                    <img src="img/mexico.png" 
+                    <img src="img/mexico2.png" 
                          class="absolute inset-0 w-full h-full object-cover opacity-100 group-hover:opacity-0 transition-opacity duration-700 z-0" alt="México Contemporáneo">
                     
                     <!-- Overlay para legibilidad inicial, se vuelve negro sólido en hover -->
@@ -208,12 +208,11 @@
                     <div class="relative z-20 p-12 h-full flex flex-col justify-between text-white">
                         <div>
                             <span class="text-[10px] font-bold text-gray-400 group-hover:text-gray-600 mb-8 block transition-colors">01</span>
-                            <h3 class="font-decorative text-xl mb-6 uppercase leading-tight">México Contemporáneo</h3>
+                            <h3 class="font-decorative text-xl mb-6 uppercase leading-tight">Espectáculos de Autor</h3>
                             
                             <!-- Descripción: Se revela en hover -->
                             <p class="text-xs leading-loose opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">
-                                Una odisea visual que fusiona nuestras raíces con acrobacias de alto rendimiento y tecnología de vanguardia. Diseñada para galas corporativas que buscan elegancia cultural sin caer en lo folclórico.
-                            </p>
+                                Desarrollamos conceptos originales de autoría propia que fusionan narrativa y Alto Rendimiento. Desde el prestigio cultural de México: Raíz Viva para galas institucionales, hasta el impacto disruptivo de Luminiscencia Cyber-Punk para lanzamientos y la sofisticación de Etéreo para eventos de clase mundial. Soluciones creativas que elevan cualquier escenario.
                         </div>
                         <div class="w-full h-[1px] bg-white/20 group-hover:bg-gray-800 transition-colors"></div>
                     </div>
@@ -227,9 +226,9 @@
                     <div class="relative z-20 p-12 h-full flex flex-col justify-between text-white">
                         <div>
                             <span class="text-[10px] font-bold text-gray-400 group-hover:text-gray-600 mb-8 block transition-colors">02</span>
-                            <h3 class="font-decorative text-xl mb-6 uppercase leading-tight">Luminiscencia Cyber-Punk</h3>
+                            <h3 class="font-decorative text-xl mb-6 uppercase leading-tight">Lanzamientos e Inauguraciones</h3>
                             <p class="text-xs leading-loose opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">
-                                Performance de alta energía con tecnología láser y LED, diseñado para lanzamientos de marca disruptivos.
+                                Especialistas en la producción de alto impacto. Creamos experiencias tipo Legendary Concert con producción sonora y visual de nivel estadio para cierres de convenciones, aniversarios, inauguraciones y lanzamientos de producto. Integramos arte y tecnología bajo una rigurosa Dirección Técnica para que el mensaje de su marca sea el protagonista.
                             </p>
                         </div>
                         <div class="w-full h-[1px] bg-white/20 group-hover:bg-gray-800 transition-colors"></div>
@@ -238,16 +237,15 @@
 
                 <!-- BLOQUE 03 -->
                 <div class="group relative h-[600px] overflow-hidden border-r border-gray-100 bg-black">
-                    <img src="img/circo.png" 
+                    <img src="img/Circo2.png" 
                          class="absolute inset-0 w-full h-full object-cover opacity-100 group-hover:opacity-0 transition-opacity duration-700 z-0" alt="Circo">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black transition-colors duration-500 z-10"></div>
                     <div class="relative z-20 p-12 h-full flex flex-col justify-between text-white">
                         <div>
                             <span class="text-[10px] font-bold text-gray-400 group-hover:text-gray-600 mb-8 block transition-colors">03</span>
-                            <h3 class="font-decorative text-xl mb-6 uppercase leading-tight">Etéreo: Fantasía Circense</h3>
+                            <h3 class="font-decorative text-xl mb-6 uppercase leading-tight">Intervenciones y Experiencias</h3>
                             <p class="text-xs leading-loose opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">
-                                El arte de lo imposible llevado a escena. Actos aéreos y destreza física con estándares de producción global.
-                            </p>
+                                Diseñamos happenings, flashmobs y experiencias personalizadas que sorprenden y conectan. Intervenciones estratégicas pensadas para transformar el flujo de un evento en una vivencia emocionalmente memorable, ideales para activaciones de marca y dinamización de audiencias.
                         </div>
                         <div class="w-full h-[1px] bg-white/20 group-hover:bg-gray-800 transition-colors"></div>
                     </div>
@@ -255,15 +253,15 @@
 
                 <!-- BLOQUE 04 -->
                 <div class="group relative h-[600px] overflow-hidden bg-black">
-                    <img src="img/concierto.png" 
+                    <img src="img/Concierto2.png" 
                          class="absolute inset-0 w-full h-full object-cover opacity-100 group-hover:opacity-0 transition-opacity duration-700 z-0" alt="Concierto">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black transition-colors duration-500 z-10"></div>
                     <div class="relative z-20 p-12 h-full flex flex-col justify-between text-white">
                         <div>
                             <span class="text-[10px] font-bold text-gray-400 group-hover:text-gray-600 mb-8 block transition-colors">04</span>
-                            <h3 class="font-decorative text-xl mb-6 uppercase leading-tight">Legendary Concert</h3>
+                            <h3 class="font-decorative text-xl mb-6 uppercase leading-tight">Exposiciones y Multimedia</h3>
                             <p class="text-xs leading-loose opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">
-                                Producción sonora y visual de nivel estadio para cierres de convenciones y aniversarios corporativos.
+                                Desarrollamos montajes expositivos donde la propuesta visual se integra con el espacio. Soluciones multimedia curadas con estándares internacionales para museos, ferias y stands corporativos, elevando el estándar de comunicación visual de su empresa.
                             </p>
                         </div>
                         <div class="w-full h-[1px] bg-white/20 group-hover:bg-gray-800 transition-colors"></div>
@@ -281,38 +279,74 @@
             <!-- Caso 1 -->
             <div class="group relative aspect-video overflow-hidden bg-gray-900">
                 <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover opacity-50 group-hover:scale-110 group-hover:opacity-30 transition-all duration-1000" alt="Corazón de Luna">
-                <div class="absolute inset-0 p-10 flex flex-col justify-end">
-                    <h4 class="font-decorative text-2xl uppercase mb-3">Corazón de Luna</h4>
-                    <p class="text-[10px] uppercase tracking-[0.3em] opacity-60 mb-4">Folclore & Circo</p>
-                    <p class="text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-500 max-w-sm">Obra ecléctica inspirada en el folclore mexicano que fusiona danza, circo y comedia.</p>
-                </div>
+               <div class="absolute inset-0 p-10 flex flex-col justify-end">
+    <h4 class="font-decorative text-xl uppercase mb-3 leading-tight">Inauguración Copa Fortaleza</h4>
+    
+    <p class="text-[9px] uppercase tracking-[0.3em] opacity-70 mb-5 font-bold">Liceo del Valle</p>
+    
+    <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-700 max-w-sm">
+        <p class="text-[11px] leading-relaxed mb-3 italic">
+            "Sin palabras. Fue una experiencia llena de magia, historia, música y luz… realmente me fascinó."
+        </p>
+        <p class="text-[11px] font-semibold">
+            Todos los invitados estaban felices.
+        </p>
+    </div>
+</div>
             </div>
             <!-- Caso 2 -->
             <div class="group relative aspect-video overflow-hidden bg-gray-900">
                 <img src="img/Porta.png" class="w-full h-full object-cover opacity-50 group-hover:scale-110 group-hover:opacity-30 transition-all duration-1000" alt="Firefly Neon Show">
-                <div class="absolute inset-0 p-10 flex flex-col justify-end">
-                    <h4 class="font-decorative text-2xl uppercase mb-3">Firefly Neon Show</h4>
-                    <p class="text-[10px] uppercase tracking-[0.3em] opacity-60 mb-4">Tecnología Lumínica</p>
-                    <p class="text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-500 max-w-sm">Viaje sensorial a través de un portal de luz mediante tecnología de vanguardia.</p>
-                </div>
+              <div class="absolute inset-0 p-10 flex flex-col justify-end">
+    <h4 class="font-decorative text-xl md:text-2xl uppercase mb-3">Aniversario X</h4>
+    
+    <p class="text-[10px] uppercase tracking-[0.3em] opacity-60 mb-4 font-bold">AstraZeneca</p>
+    
+    <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-700 max-w-sm">
+        <p class="text-[11px] leading-relaxed italic mb-2">
+            "Las estatuas estuvieron increíbles. Quedaron perfectas y lograron exactamente lo que teníamos en mente pese al poco tiempo."
+        </p>
+        <p class="text-[10px] font-semibold opacity-90">
+            Muchas gracias.
+        </p>
+    </div>
+</div>
             </div>
             <!-- Caso 3 -->
             <div class="group relative aspect-video overflow-hidden bg-gray-900">
                 <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover opacity-50 group-hover:scale-110 group-hover:opacity-30 transition-all duration-1000" alt="Alma de Viento">
-                <div class="absolute inset-0 p-10 flex flex-col justify-end">
-                    <h4 class="font-decorative text-2xl uppercase mb-3">Alma de Viento</h4>
-                    <p class="text-[10px] uppercase tracking-[0.3em] opacity-60 mb-4">Narrativa Ancestral</p>
-                    <p class="text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-500 max-w-sm">Relato inspirado en la fauna mexicana; arte circense con un mensaje de armonía.</p>
-                </div>
+               <div class="absolute inset-0 p-10 flex flex-col justify-end">
+    <h4 class="font-decorative text-xl md:text-2xl uppercase mb-3 leading-tight">Reconocimiento a Trayectoria</h4>
+    
+    <p class="text-[10px] uppercase tracking-[0.3em] opacity-60 mb-4 font-bold">Flex</p>
+    
+    <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-700 max-w-sm">
+        <p class="text-[11px] leading-relaxed italic mb-2">
+            "Buscábamos transmitir un mensaje importante a nuestros colaboradores… y el espectáculo lo dijo todo. Gracias por crear un momento tan significativo."
+        </p>
+        <p class="text-[10px] font-semibold opacity-90">
+            Show impecable.
+        </p>
+    </div>
+</div>
             </div>
             <!-- Caso 4 -->
             <div class="group relative aspect-video overflow-hidden bg-gray-900">
                 <img src="https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover opacity-50 group-hover:scale-110 group-hover:opacity-30 transition-all duration-1000" alt="Meztli">
-                <div class="absolute inset-0 p-10 flex flex-col justify-end">
-                    <h4 class="font-decorative text-2xl uppercase mb-3">Meztli</h4>
-                    <p class="text-[10px] uppercase tracking-[0.3em] opacity-60 mb-4">Mística Mexica</p>
-                    <p class="text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-500 max-w-sm">Encuentro cósmico que honra la riqueza ancestral mexica a través del movimiento.</p>
-                </div>
+               <div class="absolute inset-0 p-10 flex flex-col justify-end">
+    <h4 class="font-decorative text-xl md:text-2xl uppercase mb-3 leading-tight">Flash Mob: FIL Guadalajara</h4>
+    
+    <p class="text-[10px] uppercase tracking-[0.3em] opacity-60 mb-4 font-bold">Escritor Ricardo Ramírez</p>
+    
+    <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-700 max-w-sm">
+        <p class="text-[11px] leading-relaxed italic mb-2">
+            "Wow… pocas veces algo te mueve tanto. No fue solo la producción, fue todo lo que nos hicieron sentir: felicidad, emoción, conexión."
+        </p>
+        <p class="text-[10px] font-semibold opacity-90">
+            Un momento para siempre.
+        </p>
+    </div>
+</div>
             </div>
         </div>
     </section>
@@ -398,6 +432,16 @@
                     <p class="text-xs opacity-70">T: +52 33 4051 5423</p>
                     <p class="text-xs opacity-70">W: 811 229 6056</p>
                     <p class="text-xs opacity-70">E: nmor.espectaculos@nmor.mx</p>
+                    <div class="flex gap-5 items-center mt-6 pt-4 border-t border-gray-800">
+    <h5 class="text-[9px] font-bold uppercase tracking-[0.3em] text-gray-500 mr-2">Síguenos:</h5>
+    
+    <a href="https://www.instagram.com/nmor.espectaculos/" target="_blank" class="text-gray-500 hover:text-white transition-all transform hover:scale-110">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+    </a>  
+    <a href="https://www.facebook.com/EspectaculosNMOR?locale=es_LA" target="_blank" class="text-gray-500 hover:text-white transition-all transform hover:scale-110">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+    </a>
+</div>
                 </div>
             </div>
             <div class="pt-12 border-t border-gray-900 flex flex-col md:flex-row justify-between items-center gap-6">
